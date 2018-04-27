@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">SystemArchitecture</string>
+    <string name="app_name">系统架构</string>
+    <string name="text_content">Hello System Architecture!</string>
 </resources>
