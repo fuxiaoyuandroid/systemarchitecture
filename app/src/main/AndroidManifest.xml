@@ -3,10 +3,10 @@
     package="com.jt.systemarchitecture">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
-        android:allowBackup="true"
         android:name=".MyApplication"
+        android:allowBackup="true"
         android:icon="@mipmap/sunsai"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/sunsai"
@@ -14,9 +14,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".networkengine.simple3.NetworkEngineActivity" />
-        <activity android:name=".networkengine.simple4.NetworkEngine4Activity">
-        </activity>
+        <activity android:name=".networkengine.simple4.NetworkEngine4Activity"></activity>
         <activity android:name=".networkengine.simple5.NetworkEngine5Activity">
+        </activity>
+        <activity android:name=".aop.AspectActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
